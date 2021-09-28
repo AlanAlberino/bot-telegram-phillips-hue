@@ -2,7 +2,7 @@ const { session, Scenes, Telegraf } = require('telegraf');
 
 const phillipsHue = require('./phillips-hue');
 
-const bot = new Telegraf("1994581852:AAHnXB5t0BQrUgUvdCczpGYGqO8MTwX6uKA");
+const bot = new Telegraf("");
 
 const lightColorWizard = new Scenes.WizardScene(
     'LIGHT_COLOR_WIZARD',

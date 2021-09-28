@@ -3,7 +3,7 @@
 const nodeHueApi = require('node-hue-api'), discovery = nodeHueApi.discovery, hueApi = nodeHueApi.api;
 const hueColorConverter = require('@q42philips/hue-color-converter');
 
-const hueBridgeUser = 'fvQ3-kMabObtJHiVag1JmQ83wu0konJONgp78Sz5';
+const hueBridgeUser = '';
 
 const getLights = nodeHueApi.discovery.nupnpSearch()
   .then(searchResults => {
